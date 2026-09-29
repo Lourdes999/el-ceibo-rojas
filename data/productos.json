@@ -1,0 +1,2217 @@
+{
+  "generado": "2026-09-28T23:57:00",
+  "categorias": [
+    {
+      "id": "mates",
+      "nombre": "Mates",
+      "descripcion": "Mates imperiales, camioneros, torpedos y criollos."
+    },
+    {
+      "id": "canastas",
+      "nombre": "Canastas",
+      "descripcion": "Canastas materas de cuero y sintéticas, y portamates para el auto."
+    },
+    {
+      "id": "bombillas",
+      "nombre": "Bombillas",
+      "descripcion": "Bombillas pico de loro de acero y alpaca."
+    },
+    {
+      "id": "yerberas",
+      "nombre": "Yerberas",
+      "descripcion": "Juegos de latas para yerba y azúcar."
+    },
+    {
+      "id": "bombachas",
+      "nombre": "Bombachas",
+      "descripcion": "Bombachas de campo de grafa, de vestir y de corderoy."
+    },
+    {
+      "id": "abrigos",
+      "nombre": "Abrigos",
+      "descripcion": "Chalecos, camperas, suéteres, bufandas y corraleras."
+    },
+    {
+      "id": "remeras-y-camisas",
+      "nombre": "Remeras y camisas",
+      "descripcion": "Chombas, camisas y blusas."
+    },
+    {
+      "id": "ponchos",
+      "nombre": "Ponchos",
+      "descripcion": "Ponchos livianos, pesados y de niño."
+    },
+    {
+      "id": "calzado",
+      "nombre": "Calzado",
+      "descripcion": "Alpargatas, botas de cuero y medias."
+    },
+    {
+      "id": "boinas-y-sombreros",
+      "nombre": "Boinas y sombreros",
+      "descripcion": "Boinas de hilo y de paño, gorras vascas y sombreros."
+    },
+    {
+      "id": "corbatines-y-panuelos",
+      "nombre": "Corbatines y pañuelos",
+      "descripcion": "Corbatines, pañuelos y pasapañuelos."
+    },
+    {
+      "id": "cintos-y-rastras",
+      "nombre": "Cintos, rastras y tiradores",
+      "descripcion": "Cintos de cuero, rastras, tiradores y frentes de rastra."
+    }
+  ],
+  "productos": [
+    {
+      "id": "mate-camionero",
+      "codigo": "008",
+      "categoria": "mates",
+      "nombre": "Mate camionero",
+      "descripcion": "",
+      "precio": 24000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-camionero.jpg",
+        "img/productos/mate-camionero-2.jpg"
+      ]
+    },
+    {
+      "id": "mate-camionero-de-algarrobo-con-bombilla",
+      "codigo": "007",
+      "categoria": "mates",
+      "nombre": "Mate camionero de algarrobo con bombilla",
+      "descripcion": "",
+      "precio": 17000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-camionero-de-algarrobo-con-bombilla.jpg",
+        "img/productos/mate-camionero-de-algarrobo-con-bombilla-2.jpg",
+        "img/productos/mate-camionero-de-algarrobo-con-bombilla-3.jpg"
+      ]
+    },
+    {
+      "id": "mate-criollo-patas-de-alambre",
+      "codigo": "010",
+      "categoria": "mates",
+      "nombre": "Mate criollo patas de alambre",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-criollo-patas-de-alambre.jpg"
+      ]
+    },
+    {
+      "id": "mate-de-acero",
+      "codigo": "012",
+      "categoria": "mates",
+      "nombre": "Mate de acero",
+      "descripcion": "",
+      "precio": 11000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-de-acero.jpg"
+      ]
+    },
+    {
+      "id": "mate-imperial-de-acero-bronce",
+      "codigo": "001",
+      "categoria": "mates",
+      "nombre": "Mate imperial de acero/bronce",
+      "descripcion": "",
+      "precio": 26000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-imperial-de-acero-bronce.jpg"
+      ]
+    },
+    {
+      "id": "mate-imperial-de-algarrobo-con-bombilla",
+      "codigo": "006",
+      "categoria": "mates",
+      "nombre": "Mate imperial de algarrobo con bombilla",
+      "descripcion": "",
+      "precio": 19000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-imperial-de-algarrobo-con-bombilla.jpg"
+      ]
+    },
+    {
+      "id": "mate-imperial-de-alpaca",
+      "codigo": "002",
+      "categoria": "mates",
+      "nombre": "Mate imperial de alpaca",
+      "descripcion": "",
+      "precio": 30000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-imperial-de-alpaca.jpg"
+      ]
+    },
+    {
+      "id": "mate-imperial-de-pvc",
+      "codigo": "011",
+      "categoria": "mates",
+      "nombre": "Mate imperial de PVC",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-imperial-de-pvc.jpg",
+        "img/productos/mate-imperial-de-pvc-2.jpg"
+      ]
+    },
+    {
+      "id": "mate-imperial-premium",
+      "codigo": "003",
+      "categoria": "mates",
+      "nombre": "Mate imperial premium",
+      "descripcion": "",
+      "precio": 35000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-imperial-premium.jpg",
+        "img/productos/mate-imperial-premium-2.jpg"
+      ]
+    },
+    {
+      "id": "mate-imperial-premium-argentina",
+      "codigo": "004",
+      "categoria": "mates",
+      "nombre": "Mate imperial premium Argentina",
+      "descripcion": "",
+      "precio": 35000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-imperial-premium-argentina.jpg"
+      ]
+    },
+    {
+      "id": "mate-imperial-premium-de-algarrobo",
+      "codigo": "005",
+      "categoria": "mates",
+      "nombre": "Mate imperial premium de algarrobo",
+      "descripcion": "",
+      "precio": 35000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-imperial-premium-de-algarrobo.jpg"
+      ]
+    },
+    {
+      "id": "mate-torpedo",
+      "codigo": "009",
+      "categoria": "mates",
+      "nombre": "Mate torpedo",
+      "descripcion": "",
+      "precio": 24000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/mate-torpedo.jpg",
+        "img/productos/mate-torpedo-2.jpg",
+        "img/productos/mate-torpedo-3.jpg"
+      ]
+    },
+    {
+      "id": "canasta-de-cuero-crudo",
+      "codigo": "014",
+      "categoria": "canastas",
+      "nombre": "Canasta de cuero crudo",
+      "descripcion": "",
+      "precio": 50000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/canasta-de-cuero-crudo.jpg",
+        "img/productos/canasta-de-cuero-crudo-2.jpg"
+      ]
+    },
+    {
+      "id": "canasta-de-cuero-vaqueta",
+      "codigo": "013",
+      "categoria": "canastas",
+      "nombre": "Canasta de cuero vaqueta",
+      "descripcion": "",
+      "precio": 32000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/canasta-de-cuero-vaqueta.jpg"
+      ]
+    },
+    {
+      "id": "canasta-de-gamuza",
+      "codigo": "093",
+      "categoria": "canastas",
+      "nombre": "Canasta de Gamuza",
+      "descripcion": "",
+      "precio": 20000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": false,
+      "variantes": [],
+      "imagenes": []
+    },
+    {
+      "id": "canasta-sintetica-alta",
+      "codigo": "016",
+      "categoria": "canastas",
+      "nombre": "Canasta sintética alta",
+      "descripcion": "",
+      "precio": 16000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/canasta-sintetica-alta.jpg"
+      ]
+    },
+    {
+      "id": "canasta-sintetica-con-manija-rigida",
+      "codigo": "015",
+      "categoria": "canastas",
+      "nombre": "Canasta sintética con manija rígida",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/canasta-de-cuero-crudo.jpg",
+        "img/productos/canasta-sintetica-con-manija-rigida.jpg"
+      ]
+    },
+    {
+      "id": "canasta-sintetica-simil-carpincho",
+      "codigo": "017",
+      "categoria": "canastas",
+      "nombre": "Canasta sintética símil carpincho",
+      "descripcion": "",
+      "precio": 20000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/canasta-de-simil-carpincho.jpg"
+      ]
+    },
+    {
+      "id": "portamate-para-auto",
+      "codigo": null,
+      "categoria": "canastas",
+      "nombre": "Portamate para auto",
+      "descripcion": "",
+      "precio": 7500,
+      "titulo_variantes": "Material",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "Sintético",
+          "codigo": "018",
+          "precio": null
+        },
+        {
+          "nombre": "Cuero",
+          "codigo": "019",
+          "precio": 16000
+        }
+      ],
+      "imagenes": []
+    },
+    {
+      "id": "bombilla-pico-de-loro-acero",
+      "codigo": null,
+      "categoria": "bombillas",
+      "nombre": "Bombilla pico de loro de acero",
+      "descripcion": "",
+      "precio": 8000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/bombilla-acero.jpg"
+      ]
+    },
+    {
+      "id": "bombilla-pico-de-loro-con-aplique",
+      "codigo": null,
+      "categoria": "bombillas",
+      "nombre": "Bombilla pico de loro de acero con aplique",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/bombilla-aplique.jpg",
+        "img/productos/bombilla-ambas.jpg"
+      ]
+    },
+    {
+      "id": "bombilla-pico-de-loro-alpaca",
+      "codigo": null,
+      "categoria": "bombillas",
+      "nombre": "Bombilla pico de loro de alpaca",
+      "descripcion": "",
+      "precio": 25000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/bombilla-alpaca.jpg",
+        "img/productos/bombilla-ambas.jpg"
+      ]
+    },
+    {
+      "id": "chau-latas-x2",
+      "codigo": "026",
+      "categoria": "yerberas",
+      "nombre": "Chau latas (x2)",
+      "descripcion": "",
+      "precio": 8000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/chau-latas.jpg"
+      ]
+    },
+    {
+      "id": "latas-x2",
+      "codigo": "023",
+      "categoria": "yerberas",
+      "nombre": "Latas (x2)",
+      "descripcion": "",
+      "precio": 8000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/latas.jpg"
+      ]
+    },
+    {
+      "id": "latas-grabadas-x2",
+      "codigo": "024",
+      "categoria": "yerberas",
+      "nombre": "Latas grabadas (x2)",
+      "descripcion": "",
+      "precio": 10000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/latas-grabadas.jpg"
+      ]
+    },
+    {
+      "id": "latas-simil-carpincho-x2",
+      "codigo": "025",
+      "categoria": "yerberas",
+      "nombre": "Latas símil carpincho (x2)",
+      "descripcion": "",
+      "precio": 12000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/latas-simil-carpincho.jpg"
+      ]
+    },
+    {
+      "id": "bombacha-de-corderoy",
+      "codigo": "033",
+      "categoria": "bombachas",
+      "nombre": "Bombacha de corderoy",
+      "descripcion": "",
+      "precio": 48000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "38",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "40",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "42",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "44",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "46",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "48",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "50",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "52",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "54",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/bombacha-de-corderoy.jpg",
+        "img/productos/bombacha-de-corderoy-2.jpg"
+      ]
+    },
+    {
+      "id": "bombacha-de-grafa",
+      "codigo": null,
+      "categoria": "bombachas",
+      "nombre": "Bombacha de grafa",
+      "descripcion": "",
+      "precio": 25000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "00",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "0",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "2",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "4",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "6",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "8",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "10",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "12",
+          "codigo": "028",
+          "precio": null
+        },
+        {
+          "nombre": "14",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "16",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "18",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "34",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "36",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "38",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "40",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "42",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "44",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "46",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "48",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "50",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "52",
+          "codigo": "027",
+          "precio": 28000
+        },
+        {
+          "nombre": "54",
+          "codigo": "029",
+          "precio": 32000
+        },
+        {
+          "nombre": "56",
+          "codigo": "029",
+          "precio": 32000
+        },
+        {
+          "nombre": "58",
+          "codigo": "029",
+          "precio": 32000
+        },
+        {
+          "nombre": "60",
+          "codigo": "029",
+          "precio": 32000
+        },
+        {
+          "nombre": "62",
+          "codigo": "029",
+          "precio": 32000
+        }
+      ],
+      "imagenes": [
+        "img/productos/bombacha-de-grafa.jpg",
+        "img/productos/bombacha-de-grafa-2.jpg"
+      ]
+    },
+    {
+      "id": "bombacha-de-vestir-mil-rayas-sarga",
+      "codigo": null,
+      "categoria": "bombachas",
+      "nombre": "Bombacha de vestir mil rayas/sarga",
+      "descripcion": "",
+      "precio": 28000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "00",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "0",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "2",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "4",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "6",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "8",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "10",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "12",
+          "codigo": "031",
+          "precio": null
+        },
+        {
+          "nombre": "14",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "16",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "18",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "34",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "36",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "38",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "40",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "42",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "44",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "46",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "48",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "50",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "52",
+          "codigo": "030",
+          "precio": 32000
+        },
+        {
+          "nombre": "54",
+          "codigo": "032",
+          "precio": 34000
+        },
+        {
+          "nombre": "56",
+          "codigo": "032",
+          "precio": 34000
+        },
+        {
+          "nombre": "58",
+          "codigo": "032",
+          "precio": 34000
+        },
+        {
+          "nombre": "60",
+          "codigo": "032",
+          "precio": 34000
+        }
+      ],
+      "imagenes": [
+        "img/productos/bombacha-de-vestir.jpg"
+      ]
+    },
+    {
+      "id": "bufanda-pampa",
+      "codigo": "040",
+      "categoria": "abrigos",
+      "nombre": "Bufanda pampa",
+      "descripcion": "",
+      "precio": 14000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/bufanda-pampa.jpg"
+      ]
+    },
+    {
+      "id": "bufandon",
+      "codigo": "041",
+      "categoria": "abrigos",
+      "nombre": "Bufandón",
+      "descripcion": "",
+      "precio": 40000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/bufandon.jpg"
+      ]
+    },
+    {
+      "id": "campera-pampa",
+      "codigo": "036",
+      "categoria": "abrigos",
+      "nombre": "Campera pampa",
+      "descripcion": "",
+      "precio": 32000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "S",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "M",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "L",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XL",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XXL",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/chaleco-pampa.jpg"
+      ]
+    },
+    {
+      "id": "chaleco-matelase",
+      "codigo": null,
+      "categoria": "abrigos",
+      "nombre": "Chaleco matelasé",
+      "descripcion": "",
+      "precio": 35000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "4",
+          "codigo": "039",
+          "precio": null
+        },
+        {
+          "nombre": "6",
+          "codigo": "039",
+          "precio": null
+        },
+        {
+          "nombre": "8",
+          "codigo": "039",
+          "precio": null
+        },
+        {
+          "nombre": "10",
+          "codigo": "039",
+          "precio": null
+        },
+        {
+          "nombre": "12",
+          "codigo": "039",
+          "precio": null
+        },
+        {
+          "nombre": "14",
+          "codigo": "039",
+          "precio": null
+        },
+        {
+          "nombre": "16",
+          "codigo": "039",
+          "precio": null
+        },
+        {
+          "nombre": "S",
+          "codigo": "038",
+          "precio": 48000
+        },
+        {
+          "nombre": "M",
+          "codigo": "038",
+          "precio": 48000
+        },
+        {
+          "nombre": "L",
+          "codigo": "038",
+          "precio": 48000
+        },
+        {
+          "nombre": "XL",
+          "codigo": "038",
+          "precio": 48000
+        },
+        {
+          "nombre": "XXL",
+          "codigo": "038",
+          "precio": 48000
+        }
+      ],
+      "imagenes": [
+        "img/productos/chaleco-matelase.jpg"
+      ]
+    },
+    {
+      "id": "chaleco-pampa",
+      "codigo": "034",
+      "categoria": "abrigos",
+      "nombre": "Chaleco pampa",
+      "descripcion": "",
+      "precio": 30000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "S",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "M",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "L",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XL",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XXL",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/chaleco-pampa.jpg",
+        "img/productos/chaleco-pampa-2.jpg"
+      ]
+    },
+    {
+      "id": "chaleco-pampa-con-botones",
+      "codigo": "035",
+      "categoria": "abrigos",
+      "nombre": "Chaleco pampa con botones",
+      "descripcion": "",
+      "precio": 30000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "S",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "M",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "L",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XL",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XXL",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/chaleco-pampa-con-botones.jpg"
+      ]
+    },
+    {
+      "id": "corralera-de-mujer",
+      "codigo": "042",
+      "categoria": "abrigos",
+      "nombre": "Corralera de mujer",
+      "descripcion": "",
+      "precio": 75000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "S",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "M",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "L",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XL",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XXL",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/corralera-de-mujer.jpg"
+      ]
+    },
+    {
+      "id": "sueter-pampa",
+      "codigo": "037",
+      "categoria": "abrigos",
+      "nombre": "Suéter pampa",
+      "descripcion": "",
+      "precio": 35000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "1",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "2",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "3",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/sueter-pampa.jpg"
+      ]
+    },
+    {
+      "id": "blusa-de-broderie",
+      "codigo": "046",
+      "categoria": "remeras-y-camisas",
+      "nombre": "Blusa de broderie",
+      "descripcion": "",
+      "precio": 25000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/blusa-de-broderie.jpg",
+        "img/productos/blusa-de-broderie-2.jpg",
+        "img/productos/blusa-de-broderie-3.jpg",
+        "img/productos/blusa-de-broderie-4.jpg",
+        "img/productos/blusa-de-broderie-5.jpg"
+      ]
+    },
+    {
+      "id": "camisa-cuello-mao",
+      "codigo": "044",
+      "categoria": "remeras-y-camisas",
+      "nombre": "Camisa cuello mao",
+      "descripcion": "",
+      "precio": 20000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "S",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "M",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "L",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XL",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XXL",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "48",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "50",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/camisa-cuello-mao.jpg"
+      ]
+    },
+    {
+      "id": "camisa-de-mujer",
+      "codigo": "045",
+      "categoria": "remeras-y-camisas",
+      "nombre": "Camisa de mujer",
+      "descripcion": "",
+      "precio": 20000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "1",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "2",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "3",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/camisa-de-mujer.jpg",
+        "img/productos/camisa-de-mujer-2.jpg"
+      ]
+    },
+    {
+      "id": "chomba-pampa",
+      "codigo": "043",
+      "categoria": "remeras-y-camisas",
+      "nombre": "Chomba pampa",
+      "descripcion": "",
+      "precio": 25000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "S",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "M",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "L",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XL",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "XXL",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/chomba-pampa.jpg",
+        "img/productos/chomba-pampa-2.jpg",
+        "img/productos/chomba-pampa-3.jpg",
+        "img/productos/chomba-pampa-4.jpg"
+      ]
+    },
+    {
+      "id": "poncho-de-nino",
+      "codigo": "050",
+      "categoria": "ponchos",
+      "nombre": "Poncho de niño",
+      "descripcion": "",
+      "precio": 30000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/poncho-de-nino.jpg"
+      ]
+    },
+    {
+      "id": "poncho-liviano",
+      "codigo": "047",
+      "categoria": "ponchos",
+      "nombre": "Poncho liviano",
+      "descripcion": "",
+      "precio": 45000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/poncho-liviano.jpg"
+      ]
+    },
+    {
+      "id": "poncho-pampa-reversible",
+      "codigo": "049",
+      "categoria": "ponchos",
+      "nombre": "Poncho pampa reversible",
+      "descripcion": "",
+      "precio": 95000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/poncho-pampa-reversible.jpg"
+      ]
+    },
+    {
+      "id": "poncho-pesado",
+      "codigo": "048",
+      "categoria": "ponchos",
+      "nombre": "Poncho pesado",
+      "descripcion": "",
+      "precio": 90000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/poncho-pesado.jpg"
+      ]
+    },
+    {
+      "id": "alpargata-confortable",
+      "codigo": "051",
+      "categoria": "calzado",
+      "nombre": "Alpargata confortable",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "34",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "35",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "36",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "37",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "38",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "39",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "40",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "41",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "42",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "43",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "44",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "45",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "46",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/alpargata-confortable.jpg"
+      ]
+    },
+    {
+      "id": "alpargata-confortable-con-suela-de-goma",
+      "codigo": "052",
+      "categoria": "calzado",
+      "nombre": "Alpargata confortable con suela de goma",
+      "descripcion": "",
+      "precio": 18000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "34",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "35",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "36",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "37",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "38",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "39",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "40",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "41",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "42",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "43",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/alpargata-confortable-con-suela-de-goma.jpg"
+      ]
+    },
+    {
+      "id": "alpargata-cruda-economica",
+      "codigo": "053",
+      "categoria": "calzado",
+      "nombre": "Alpargata cruda económica",
+      "descripcion": "",
+      "precio": 9000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "34",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "35",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "36",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "37",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "38",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "39",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "40",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "41",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "42",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "43",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "44",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "45",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": []
+    },
+    {
+      "id": "alpargata-de-nino",
+      "codigo": "054",
+      "categoria": "calzado",
+      "nombre": "Alpargata de niño",
+      "descripcion": "",
+      "precio": 7000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "23",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "24",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "25",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "26",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "27",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "28",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "29",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "30",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "31",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "32",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "33",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/alpargata-de-nino.jpg"
+      ]
+    },
+    {
+      "id": "botas-de-cuero",
+      "codigo": "055",
+      "categoria": "calzado",
+      "nombre": "Botas de cuero",
+      "descripcion": "",
+      "precio": 180000,
+      "titulo_variantes": "Talle",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "41",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "42",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "43",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "44",
+          "codigo": null,
+          "precio": null
+        },
+        {
+          "nombre": "45",
+          "codigo": null,
+          "precio": null
+        }
+      ],
+      "imagenes": [
+        "img/productos/botas-de-cuero.jpg"
+      ]
+    },
+    {
+      "id": "medias-finas",
+      "codigo": "056",
+      "categoria": "calzado",
+      "nombre": "Medias finas",
+      "descripcion": "",
+      "precio": 3500,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/medias-finas.jpg"
+      ]
+    },
+    {
+      "id": "boina-de-hilo",
+      "codigo": null,
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Boina de hilo",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Vuelo",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "27",
+          "codigo": "058",
+          "precio": null
+        },
+        {
+          "nombre": "32",
+          "codigo": "058",
+          "precio": null
+        },
+        {
+          "nombre": "35",
+          "codigo": "059",
+          "precio": 18000
+        }
+      ],
+      "imagenes": [
+        "img/productos/boinas-ambas.jpg"
+      ]
+    },
+    {
+      "id": "boina-de-hilo-economica-vuelo-32",
+      "codigo": "057",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Boina de hilo económica, vuelo 32",
+      "descripcion": "",
+      "precio": 12000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/boinas-ambas.jpg"
+      ]
+    },
+    {
+      "id": "boina-de-pano-economica-vuelo-32",
+      "codigo": "060",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Boina de paño económica, vuelo 32",
+      "descripcion": "",
+      "precio": 25000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/boina-de-pano-economica-vuelo-32.jpg"
+      ]
+    },
+    {
+      "id": "boina-de-pano-ftl-vuelo-32",
+      "codigo": "061",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Boina de paño FTL, vuelo 32",
+      "descripcion": "",
+      "precio": 35000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/boina-de-pano-ftl-vuelo-32.jpg"
+      ]
+    },
+    {
+      "id": "boina-de-pano-grueso",
+      "codigo": "062",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Boina de paño grueso",
+      "descripcion": "",
+      "precio": 46000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/boina-de-paño-grueso.jpg",
+        "img/productos/boina-de-pano-grueso.jpg"
+      ]
+    },
+    {
+      "id": "gorra-vasca-de-cuerina",
+      "codigo": "064",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Gorra vasca de cuerina",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/gorra-vasca-de-cuerina.jpg"
+      ]
+    },
+    {
+      "id": "gorra-vasca-de-pano",
+      "codigo": "063",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Gorra vasca de paño",
+      "descripcion": "",
+      "precio": 14000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/gorra-vasca-de-pano.jpg"
+      ]
+    },
+    {
+      "id": "sombrero-de-pano-ala-ancha",
+      "codigo": "065",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Sombrero de paño ala ancha",
+      "descripcion": "",
+      "precio": 45000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/sombrero-de-pano-ala-ancha.jpg"
+      ]
+    },
+    {
+      "id": "sombrero-de-rafia",
+      "codigo": "066",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Sombrero de rafia",
+      "descripcion": "",
+      "precio": 38000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/sombrero-de-rafia.jpg"
+      ]
+    },
+    {
+      "id": "sombrero-de-rafia-de-papel",
+      "codigo": "067",
+      "categoria": "boinas-y-sombreros",
+      "nombre": "Sombrero de rafia de papel",
+      "descripcion": "",
+      "precio": 38000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/sombrero-de-rafia-de-papel.jpg"
+      ]
+    },
+    {
+      "id": "corbatin",
+      "codigo": "068",
+      "categoria": "corbatines-y-panuelos",
+      "nombre": "Corbatín",
+      "descripcion": "",
+      "precio": 7000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/corpatin.jpg",
+        "img/productos/corbatin.jpg"
+      ]
+    },
+    {
+      "id": "panuelo-80-x-80",
+      "codigo": "069",
+      "categoria": "corbatines-y-panuelos",
+      "nombre": "Pañuelo 80 x 80",
+      "descripcion": "",
+      "precio": 12000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/panuelo-80-x-80.jpg"
+      ]
+    },
+    {
+      "id": "panuelo-de-baile-celeste-y-blanco",
+      "codigo": "070",
+      "categoria": "corbatines-y-panuelos",
+      "nombre": "Pañuelo de baile celeste y blanco",
+      "descripcion": "",
+      "precio": 4500,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/panuelo-de-baile-celeste-y-blanco.jpg"
+      ]
+    },
+    {
+      "id": "pasapanuelo",
+      "codigo": "071",
+      "categoria": "corbatines-y-panuelos",
+      "nombre": "Pasapañuelo",
+      "descripcion": "",
+      "precio": 8000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/pasapanuelo.jpg"
+      ]
+    },
+    {
+      "id": "cinto-de-cuero-con-hebilla-de-mujer",
+      "codigo": "074",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Cinto de cuero con hebilla de mujer",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/cinto-de-cuero-con-hebilla-de-mujer.jpg"
+      ]
+    },
+    {
+      "id": "cinto-de-cuero-con-hebilla-pampa",
+      "codigo": "072",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Cinto de cuero con hebilla pampa",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/cinto-de-cuero-con-hebilla-pampa.jpg"
+      ]
+    },
+    {
+      "id": "cinto-de-cuero-con-yunta",
+      "codigo": "073",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Cinto de cuero con yunta",
+      "descripcion": "",
+      "precio": 15000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/cinto-de-cuero-crudo.jpg",
+        "img/productos/cinto-de-cuero-con-yunta.jpg"
+      ]
+    },
+    {
+      "id": "cinto-de-cuero-crudo-con-hebilla-de-mujer",
+      "codigo": "076",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Cinto de cuero crudo con hebilla de mujer",
+      "descripcion": "",
+      "precio": 18000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/cinto-de-cuero-crudo-con-hebilla-de-mujer.jpg"
+      ]
+    },
+    {
+      "id": "cinto-de-cuero-crudo-con-yunta",
+      "codigo": "075",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Cinto de cuero crudo con yunta",
+      "descripcion": "",
+      "precio": 18000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/cinto-de-cuero-crudo-con-yunta.jpg"
+      ]
+    },
+    {
+      "id": "cinto-de-cuero-crudo-de-nino",
+      "codigo": "079",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Cinto de cuero crudo de niño",
+      "descripcion": "",
+      "precio": 16000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/cinto-de-cuero-crudo-de-nino.jpg"
+      ]
+    },
+    {
+      "id": "cinto-de-cuero-de-nino",
+      "codigo": "078",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Cinto de cuero de niño",
+      "descripcion": "",
+      "precio": 13000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/cinto-de-cuero-de-nino.jpg"
+      ]
+    },
+    {
+      "id": "frente-de-rastra",
+      "codigo": null,
+      "categoria": "cintos-y-rastras",
+      "nombre": "Frente de rastra",
+      "descripcion": "",
+      "precio": 20000,
+      "titulo_variantes": "Tamaño",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "Chico",
+          "codigo": "092",
+          "precio": null
+        },
+        {
+          "nombre": "Grande",
+          "codigo": "091",
+          "precio": 30000
+        }
+      ],
+      "imagenes": [
+        "img/productos/frente-de-rastra.jpg"
+      ]
+    },
+    {
+      "id": "rastra-de-cuero-crudo-completa",
+      "codigo": "086",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Rastra de cuero crudo completa",
+      "descripcion": "",
+      "precio": 50000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/rastra-de-cuero-crudo-completa.jpg"
+      ]
+    },
+    {
+      "id": "rastra-de-cuero-negro-completa",
+      "codigo": "085",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Rastra de cuero negro completa",
+      "descripcion": "",
+      "precio": 50000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/rastra-de-cuero-negro-completa.jpg"
+      ]
+    },
+    {
+      "id": "rastra-de-cuero-vaqueta-completa",
+      "codigo": "084",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Rastra de cuero vaqueta completa",
+      "descripcion": "",
+      "precio": 45000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/rastra-de-cuero-vaqueta-completa.jpg"
+      ]
+    },
+    {
+      "id": "rastra-simil-carpincho-con-hebilla-doble",
+      "codigo": "083",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Rastra símil carpincho con hebilla doble",
+      "descripcion": "",
+      "precio": 30000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/rastra-simil-carpincho-con-hebilla-doble.jpg"
+      ]
+    },
+    {
+      "id": "rastra-simil-carpincho-con-hebilla-simple",
+      "codigo": "082",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Rastra símil carpincho con hebilla simple",
+      "descripcion": "",
+      "precio": 28000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/rastra-simil-carpincho-con-hebilla-simple.jpg"
+      ]
+    },
+    {
+      "id": "rastra-simil-carpincho-de-nino",
+      "codigo": "081",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Rastra símil carpincho de niño",
+      "descripcion": "",
+      "precio": 24000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/rastra-simil-carpincho-de-nino.jpg"
+      ]
+    },
+    {
+      "id": "rastrin-de-cuero-crudo",
+      "codigo": "077",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Rastrín de cuero crudo",
+      "descripcion": "",
+      "precio": 22000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/rastrin-de-cuero-crudo.jpg"
+      ]
+    },
+    {
+      "id": "tirador-de-cuero",
+      "codigo": null,
+      "categoria": "cintos-y-rastras",
+      "nombre": "Tirador de cuero",
+      "descripcion": "",
+      "precio": 25000,
+      "titulo_variantes": "Tamaño",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [
+        {
+          "nombre": "Chico",
+          "codigo": "087",
+          "precio": null
+        },
+        {
+          "nombre": "Grande",
+          "codigo": "088",
+          "precio": 30000
+        }
+      ],
+      "imagenes": [
+        "img/productos/tirador-de-cuero.jpg"
+      ]
+    },
+    {
+      "id": "tirador-elastizado-de-carpincho",
+      "codigo": "089",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Tirador elastizado de carpincho",
+      "descripcion": "",
+      "precio": 45000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/tirador-elastizado-de-carpincho.jpg"
+      ]
+    },
+    {
+      "id": "tirador-elastizado-de-cuero",
+      "codigo": "090",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Tirador elastizado de cuero",
+      "descripcion": "",
+      "precio": 43000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/tirador-elastizado-de-cuero.jpg"
+      ]
+    },
+    {
+      "id": "yunta-engarzada",
+      "codigo": "080",
+      "categoria": "cintos-y-rastras",
+      "nombre": "Yunta engarzada",
+      "descripcion": "",
+      "precio": 12000,
+      "titulo_variantes": "Opción",
+      "destacado": false,
+      "disponible": true,
+      "variantes": [],
+      "imagenes": [
+        "img/productos/yunta-engarzada.jpg"
+      ]
+    }
+  ]
+}

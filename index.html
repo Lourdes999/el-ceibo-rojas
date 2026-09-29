@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>El Ceibo | Talabartería artesanal</title>
+  <meta name="description" content="Catálogo de El Ceibo, talabartería artesanal desde 2011. Armá tu pedido y envialo por WhatsApp.">
+  <meta name="theme-color" content="#260B01">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23260B01'/%3E%3Ctext x='16' y='23' text-anchor='middle' font-family='Georgia,serif' font-size='20' fill='%23DBD5CA'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="saltar" href="#catalogo">Ir al catálogo</a>
+
+  <header class="encabezado" id="encabezado">
+    <div class="encabezado__contenido">
+      <a class="marca" href="#inicio">El Ceibo</a>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#pautas">Pautas</a>
+      </nav>
+      <div class="encabezado__acciones">
+        <button class="boton-menu" id="boton-menu" type="button" aria-expanded="false" aria-controls="menu">Menú</button>
+        <button class="boton-pedido" id="abrir-carrito" type="button" aria-controls="carrito">
+          Mi pedido
+          <span class="boton-pedido__contador" id="contador-carrito" hidden>0</span>
+        </button>
+      </div>
+  </header>
+
+  <main id="inicio">
+    <section class="portada" id="portada">
+      <div class="portada__contenido">
+        <h1 class="portada__titulo">El Ceibo</h1>
+        <p class="portada__bajada">Talabartería y regionales. <span aria-hidden="true">|</span> Desde 2011</p>
+        <a class="btn btn--claro" href="#catalogo">Ver catálogo</a>
+      </div>
+    </section>
+
+        <section class="nosotros" id="nosotros">
+      <div class="nosotros__encabezado">
+        <h2 class="nosotros__titulo">Oficio de campo, trabajado a mano</h2>
+        <p class="nosotros__subtitulo">Una talabartería familiar con quince años de trayectoria</p>
+      </div>
+      <div class="nosotros__texto">
+        <p>Desde 2011 somos una talabartería familiar en Rojas, provincia de Buenos Aires. Trabajamos el cuero y reunimos lo mejor de los artículos regionales: mates, cintos y rastras, bombachas, boinas, ponchos, alpargatas y más.</p>
+        <p>Elegí lo que te guste del catálogo, sumalo a tu pedido y te lo mandamos armado por WhatsApp. Ahí coordinamos talles, envío y forma de pago. Enviamos a todo el país o podés retirar en el local.</p>
+      </div>
+    </section>
+
+    <div class="guarda" aria-hidden="true"></div>
+
+    <section class="catalogo" id="catalogo" aria-labelledby="titulo-catalogo">
+      <div class="catalogo__cabecera">
+        <div>
+          <a class="volver" id="volver-catalogo" href="#catalogo" hidden>← Todas las categorías</a>
+          <h2 class="catalogo__titulo" id="titulo-catalogo">Catálogo</h2>
+        </div>
+        <div class="filtros">
+          <label class="campo campo--buscar">
+            <span class="oculto">Buscar productos</span>
+            <input id="buscador" type="search" placeholder="Buscar por nombre o código" autocomplete="off">
+          </label>
+          <label class="campo" id="campo-orden" hidden>
+            <span class="oculto">Ordenar</span>
+            <select id="orden">
+              <option value="destacados">Destacados primero</option>
+              <option value="precio-asc">Menor precio</option>
+              <option value="precio-desc">Mayor precio</option>
+              <option value="nombre">Nombre (A–Z)</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <!-- Inicio del catálogo: destacados y categorías -->
+      <div id="vista-inicio">
+        <div class="bloque" id="bloque-destacados" hidden>
+          <h3 class="bloque__titulo">Destacados</h3>
+          <div class="grilla" id="grilla-destacados"></div>
+        </div>
+        <div class="bloque">
+          <h3 class="bloque__titulo">Categorías</h3>
+          <div class="mosaico" id="mosaico"></div>
+        </div>
+      </div>
+
+      <!-- Una categoría o una búsqueda -->
+      <div id="vista-lista" hidden>
+        <nav class="categorias" id="categorias" aria-label="Categorías"></nav>
+        <label class="campo selector-categoria">
+          <span class="oculto">Categoría</span>
+          <select id="selector-categoria"></select>
+        </label>
+        <p class="catalogo__resultado" id="resultado" aria-live="polite"></p>
+        <div class="grilla" id="grilla"></div>
+      </div>
+    </section>
+
+    <section class="contacto" id="contacto" aria-labelledby="titulo-contacto">
+      <h2 class="seccion__titulo" id="titulo-contacto">Contacto</h2>
+      <div class="contacto__grilla">
+        <div class="dato">
+          <h3 class="dato__titulo">WhatsApp</h3>
+          <a class="dato__valor" data-whatsapp href="#" target="_blank" rel="noopener">2474 468603</a>
+        </div>
+        <div class="dato">
+          <h3 class="dato__titulo">Instagram</h3>
+          <a class="dato__valor" href="https://www.instagram.com/elceiborojas/" target="_blank" rel="noopener">@elceiborojas</a>
+        </div>
+        <div class="dato">
+          <h3 class="dato__titulo">Local</h3>
+          <a class="dato__valor" href="https://www.google.com/maps/search/?api=1&amp;query=Dardo+Rocha+405%2C+Rojas%2C+Buenos+Aires" target="_blank" rel="noopener">Dardo Rocha 405<br>Rojas, Buenos Aires</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="pautas" id="pautas" aria-labelledby="titulo-pautas">
+      <div class="pautas__contenido">
+        <h2 class="seccion__titulo" id="titulo-pautas">Pautas</h2>
+        <div class="pautas__grilla">
+          <article class="pauta-mayorista">
+            <p class="pauta-mayorista__cifra" data-pauta="porcentaje">15 %</p>
+            <h3 class="pauta__titulo">Pauta mayorista</h3>
+            <p>En compras mayores a <strong data-pauta="monto">$ 200.000</strong> se aplica un <strong data-pauta="porcentaje">15 %</strong> de descuento sobre el total. No hace falta que sean los mismos productos: podés combinar lo que quieras.</p>
+          </article>
+          <div class="pautas__lista">
+            <article class="pauta">
+              <h3 class="pauta__titulo">Preparación del pedido</h3>
+              <p>Los productos de nuestra producción se preparan en 2 o 3 días hábiles desde que se confirma la compra.</p>
+            </article>
+            <article class="pauta">
+              <h3 class="pauta__titulo">Envíos</h3>
+              <p>Despachamos de lunes a viernes por Vía Cargo a todo el país. El costo del envío queda a cargo del comprador. También podés retirar tu pedido en el local.</p>
+            </article>
+            <article class="pauta">
+              <h3 class="pauta__titulo">Medios de pago</h3>
+              <p>Efectivo, transferencia bancaria y Mercado Pago.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p class="pie__marca">El Ceibo</p>
+    <p class="pie__texto">Talabartería y artículos regionales en Rojas, Buenos Aires. Los precios pueden cambiar sin aviso.</p>
+  </footer>
+
+  
+  <dialog class="modal" id="modal-producto" aria-labelledby="detalle-titulo"></dialog>
+
+  <div class="fondo" id="fondo-carrito" hidden></div>
+  <aside class="carrito" id="carrito" aria-label="Tu pedido" aria-hidden="true" inert>
+    <div class="carrito__cabecera">
+      <h2 class="carrito__titulo">Tu pedido</h2>
+      <button class="carrito__cerrar" type="button" data-cerrar-carrito aria-label="Cerrar el pedido">×</button>
+    </div>
+    <div class="carrito__items" id="carrito-items"></div>
+    <div class="carrito__pie">
+      <div class="carrito__fila" id="fila-subtotal" hidden>
+        <span>Subtotal</span>
+        <span id="carrito-subtotal"></span>
+      </div>
+      <div class="carrito__fila carrito__fila--descuento" id="fila-descuento" hidden>
+        <span>Descuento 15 %</span>
+        <span id="carrito-descuento"></span>
+      </div>
+      <div class="carrito__total">
+        <span>Total estimado</span>
+        <strong id="carrito-total">$ 0</strong>
+      </div>
+      <p class="carrito__aviso" id="aviso-descuento" hidden></p>
+      <p class="carrito__aviso" id="carrito-aviso" hidden>Hay productos con precio a consultar: te lo confirmamos por WhatsApp.</p>
+      <label class="campo campo--apilado">
+        <span>Tu nombre (opcional)</span>
+        <input id="cliente-nombre" type="text" autocomplete="given-name">
+      </label>
+      <label class="campo campo--apilado">
+        <span>Nota para el pedido (opcional)</span>
+        <textarea id="cliente-nota" rows="2" placeholder="Ej.: lo necesito para el sábado"></textarea>
+      </label>
+      <a class="btn btn--oscuro btn--ancho" id="enviar-pedido" href="#" target="_blank" rel="noopener">Enviar pedido por WhatsApp</a>
+      <button class="carrito__vaciar" id="vaciar-carrito" type="button" hidden>Vaciar pedido</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
