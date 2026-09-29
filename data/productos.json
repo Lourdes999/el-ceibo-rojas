@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-28T23:57:00",
+  "generado": "2026-09-29T00:45:20",
   "categorias": [
     {
       "id": "mates",
@@ -1856,7 +1856,6 @@
       "disponible": true,
       "variantes": [],
       "imagenes": [
-        "img/productos/corpatin.jpg",
         "img/productos/corbatin.jpg"
       ]
     },
