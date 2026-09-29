@@ -341,11 +341,16 @@ function conectarEventos() {
   document.addEventListener(
     "error",
     (e) => {
-      const img = e.target;
-      if (img.tagName === "IMG" && !img.dataset.reemplazada && !img.closest("figure[data-sugerencia]")) {
-        img.dataset.reemplazada = "si";
-        img.src = ILUSTRACION;
+            const img = e.target;
+      if (img.tagName !== "IMG" || img.dataset.reemplazada || img.closest("figure[data-sugerencia]")) return;
+      // En una tesela de categoría, si la foto falla se vuelve al fondo liso
+      if (img.classList.contains("tesela__img")) {
+        img.closest(".tesela").classList.remove("tesela--foto");
+        img.remove();
+        return;
       }
+      img.dataset.reemplazada = "si";
+      img.src = ILUSTRACION;
     },
     true
   );
