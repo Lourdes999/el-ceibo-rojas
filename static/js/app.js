@@ -368,7 +368,6 @@ function completarDatosDelNegocio() {
 
 async function iniciar() {
   const portada = el("portada");
-  completarDatosDelNegocio();
   marcarFotosPendientes();
   iniciarEncabezado(el("encabezado"), portada);
   conectarEventos();
@@ -378,6 +377,9 @@ async function iniciar() {
     const catalogo = await cargarCatalogo();
     estado.categorias = catalogo.categorias;
     estado.productos = catalogo.productos;
+    // WhatsApp y pauta mayorista se editan en el panel
+    if (catalogo.configuracion) Object.assign(CONFIG, catalogo.configuracion);
+
   } catch (error) {
     nodos.vistaInicio.hidden = true;
     nodos.vistaLista.hidden = false;
@@ -389,6 +391,7 @@ async function iniciar() {
     return;
   }
 
+  completarDatosDelNegocio();
   carrito.sincronizar(estado.productos);
   leerRuta();
   dibujarCatalogo();

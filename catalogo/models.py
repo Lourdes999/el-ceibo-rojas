@@ -1,6 +1,6 @@
 import uuid
 
-from django.core.validators import RegexValidator
+from django.core.validators import MaxValueValidator, RegexValidator
 from django.db import models
 
 from .imagenes import optimizar
@@ -86,3 +86,36 @@ class Imagen(models.Model):
             nombre = f"{self.producto.slug}-{uuid.uuid4().hex[:8]}.jpg"
             self.archivo.save(nombre, optimizar(self.archivo), save=False)
         super().save(*args, **kwargs)
+
+
+
+class Configuracion(models.Model):
+    """Datos del negocio que se editan desde el panel. Siempre hay una sola."""
+
+    whatsapp = models.CharField(
+        max_length=20, validators=[solo_numeros],
+        help_text="Formato internacional sin espacios: 549 + característica + número. Ej.: 5492474468603",
+    )
+    pauta_monto_minimo = models.PositiveIntegerField(
+        "monto mínimo de la pauta mayorista", default=200000,
+        help_text="El descuento se aplica a compras mayores a este monto, en pesos.",
+    )
+    pauta_porcentaje = models.PositiveSmallIntegerField(
+        "porcentaje de descuento", default=15, validators=[MaxValueValidator(100)],
+    )
+
+    class Meta:
+        verbose_name = "configuración"
+        verbose_name_plural = "configuración"
+
+    def __str__(self):
+        return "Configuración del negocio"
+
+    def save(self, *args, **kwargs):
+        self.pk = 1  # siempre la misma fila
+        super().save(*args, **kwargs)
+
+    @classmethod
+    def cargar(cls):
+        configuracion, _ = cls.objects.get_or_create(pk=1, defaults={"whatsapp": "5492474468603"})
+        return configuracion

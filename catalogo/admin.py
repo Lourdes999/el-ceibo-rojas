@@ -1,8 +1,9 @@
 from django.contrib import admin
 from django.utils.html import format_html
 
-from .models import Categoria, Imagen, Producto, Variante
+from django.shortcuts import redirect
 
+from .models import Categoria, Configuracion, Imagen, Producto, Variante
 
 @admin.register(Categoria)
 class CategoriaAdmin(admin.ModelAdmin):
@@ -60,3 +61,23 @@ class ProductoAdmin(admin.ModelAdmin):
     def get_queryset(self, request):
         # Trae categoría y fotos de una vez, para que la lista cargue rápido
         return super().get_queryset(request).select_related("categoria").prefetch_related("imagenes").distinct()
+
+
+    
+
+@admin.register(Configuracion)
+class ConfiguracionAdmin(admin.ModelAdmin):
+    fieldsets = [
+        ("WhatsApp", {"fields": ["whatsapp"]}),
+        ("Pauta mayorista", {"fields": ["pauta_monto_minimo", "pauta_porcentaje"]}),
+    ]
+
+    def changelist_view(self, request, extra_context=None):
+        # Hay una sola configuración: se abre directamente para editarla
+        return redirect("admin:catalogo_configuracion_change", Configuracion.cargar().pk)
+
+    def has_add_permission(self, request):
+        return False
+
+    def has_delete_permission(self, request, obj=None):
+        return False
