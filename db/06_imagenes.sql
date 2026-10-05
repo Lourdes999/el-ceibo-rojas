@@ -96,7 +96,7 @@
    ('pasapanuelo', 'img/productos/pasapanuelo.jpg', 1),
 
    ('cinto-de-cuero-con-hebilla-pampa', 'img/productos/cinto-de-cuero-con-hebilla-pampa.jpg', 1),
-   ('cinto-de-cuero-con-yunta', 'img/productos/cinto-de-cuero-crudo.jpg', 1),
+   ('cinto-de-cuero-con-yunta', 'img/productos/cinto-de-cuero-con-yunta.jpg', 1),
    ('cinto-de-cuero-con-hebilla-de-mujer', 'img/productos/cinto-de-cuero-con-hebilla-de-mujer.jpg', 1),
    ('cinto-de-cuero-crudo-con-yunta', 'img/productos/cinto-de-cuero-crudo-con-yunta.jpg', 1),
    ('cinto-de-cuero-crudo-con-hebilla-de-mujer', 'img/productos/cinto-de-cuero-crudo-con-hebilla-de-mujer.jpg', 1),

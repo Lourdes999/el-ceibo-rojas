@@ -51,7 +51,9 @@ INSERT INTO productos (id, codigo, categoria_id, nombre, precio, titulo_variante
   ('canasta-sintetica-simil-carpincho', '017', 'canastas', 'Canasta sintética símil carpincho', 20000, 'Opción'),
   ('portamate-para-auto', NULL, 'canastas', 'Portamate para auto', 7500, 'Material'),
   
-  ('bombilla-pico-de-loro', NULL, 'bombillas', 'Bombilla pico de loro', 8000, 'Material'),
+  ('bombilla-pico-de-loro-acero', NULL, 'bombillas', 'Bombilla pico de loro de acero', 8000, 'Material'),
+  ('bombilla-pico-de-loro-alpaca', NULL, 'bombillas', 'Bombilla pico de loro de alpaca', 25000, 'Material')
+  ('bombilla-pico-de-loro-con-aplique', NULL, 'bombillas', 'Bombilla pico de loro de acero con aplique', 15000, 'Material'),
   
   ('latas-x2', '023', 'yerberas', 'Latas (x2)', 8000, 'Opción'),
   ('latas-grabadas-x2', '024', 'yerberas', 'Latas grabadas (x2)', 10000, 'Opción'),
@@ -74,16 +76,19 @@ INSERT INTO productos (id, codigo, categoria_id, nombre, precio, titulo_variante
   ('camisa-cuello-mao', '044', 'remeras-y-camisas', 'Camisa cuello mao', 20000, 'Opción'),
   ('camisa-de-mujer', '045', 'remeras-y-camisas', 'Camisa de mujer', 20000, 'Talle'),
   ('blusa-de-broderie', '046', 'remeras-y-camisas', 'Blusa de broderie', 25000, 'Opción'),
+  
   ('poncho-liviano', '047', 'ponchos', 'Poncho liviano', 45000, 'Opción'),
   ('poncho-pesado', '048', 'ponchos', 'Poncho pesado', 90000, 'Opción'),
   ('poncho-pampa-reversible', '049', 'ponchos', 'Poncho pampa reversible', 95000, 'Opción'),
   ('poncho-de-nino', '050', 'ponchos', 'Poncho de niño', 30000, 'Opción'),
+  
   ('alpargata-confortable', '051', 'calzado', 'Alpargata confortable', 15000, 'Talle'),
   ('alpargata-confortable-con-suela-de-goma', '052', 'calzado', 'Alpargata confortable con suela de goma', 18000, 'Talle'),
   ('alpargata-cruda-economica', '053', 'calzado', 'Alpargata cruda económica', 9000, 'Talle'),
   ('alpargata-de-nino', '054', 'calzado', 'Alpargata de niño', 7000, 'Talle'),
   ('botas-de-cuero', '055', 'calzado', 'Botas de cuero', 180000, 'Talle'),
   ('medias-finas', '056', 'calzado', 'Medias finas', 3500, 'Opción'),
+  
   ('boina-de-hilo-economica-vuelo-32', '057', 'boinas-y-sombreros', 'Boina de hilo económica, vuelo 32', 12000, 'Opción'),
   ('boina-de-hilo', NULL, 'boinas-y-sombreros', 'Boina de hilo', 15000, 'Vuelo'),
   ('boina-de-pano-economica-vuelo-32', '060', 'boinas-y-sombreros', 'Boina de paño económica, vuelo 32', 25000, 'Opción'),
@@ -94,10 +99,12 @@ INSERT INTO productos (id, codigo, categoria_id, nombre, precio, titulo_variante
   ('sombrero-de-pano-ala-ancha', '065', 'boinas-y-sombreros', 'Sombrero de paño ala ancha', 45000, 'Opción'),
   ('sombrero-de-rafia', '066', 'boinas-y-sombreros', 'Sombrero de rafia', 38000, 'Opción'),
   ('sombrero-de-rafia-de-papel', '067', 'boinas-y-sombreros', 'Sombrero de rafia de papel', 38000, 'Opción'),
+ 
   ('corbatin', '068', 'corbatines-y-panuelos', 'Corbatín', 7000, 'Opción'),
   ('panuelo-80-x-80', '069', 'corbatines-y-panuelos', 'Pañuelo 80 x 80', 12000, 'Opción'),
   ('panuelo-de-baile-celeste-y-blanco', '070', 'corbatines-y-panuelos', 'Pañuelo de baile celeste y blanco', 4500, 'Opción'),
   ('pasapanuelo', '071', 'corbatines-y-panuelos', 'Pasapañuelo', 8000, 'Opción'),
+  
   ('cinto-de-cuero-con-hebilla-pampa', '072', 'cintos-y-rastras', 'Cinto de cuero con hebilla pampa', 15000, 'Opción'),
   ('cinto-de-cuero-con-yunta', '073', 'cintos-y-rastras', 'Cinto de cuero con yunta', 15000, 'Opción'),
   ('cinto-de-cuero-con-hebilla-de-mujer', '074', 'cintos-y-rastras', 'Cinto de cuero con hebilla de mujer', 15000, 'Opción'),
@@ -107,12 +114,14 @@ INSERT INTO productos (id, codigo, categoria_id, nombre, precio, titulo_variante
   ('cinto-de-cuero-de-nino', '078', 'cintos-y-rastras', 'Cinto de cuero de niño', 13000, 'Opción'),
   ('cinto-de-cuero-crudo-de-nino', '079', 'cintos-y-rastras', 'Cinto de cuero crudo de niño', 16000, 'Opción'),
   ('yunta-engarzada', '080', 'cintos-y-rastras', 'Yunta engarzada', 12000, 'Opción'),
+  
   ('rastra-simil-carpincho-de-nino', '081', 'cintos-y-rastras', 'Rastra símil carpincho de niño', 24000, 'Opción'),
   ('rastra-simil-carpincho-con-hebilla-simple', '082', 'cintos-y-rastras', 'Rastra símil carpincho con hebilla simple', 28000, 'Opción'),
   ('rastra-simil-carpincho-con-hebilla-doble', '083', 'cintos-y-rastras', 'Rastra símil carpincho con hebilla doble', 30000, 'Opción'),
   ('rastra-de-cuero-vaqueta-completa', '084', 'cintos-y-rastras', 'Rastra de cuero vaqueta completa', 45000, 'Opción'),
   ('rastra-de-cuero-negro-completa', '085', 'cintos-y-rastras', 'Rastra de cuero negro completa', 50000, 'Opción'),
   ('rastra-de-cuero-crudo-completa', '086', 'cintos-y-rastras', 'Rastra de cuero crudo completa', 50000, 'Opción'),
+
   ('tirador-de-cuero', NULL, 'cintos-y-rastras', 'Tirador de cuero', 25000, 'Tamaño'),
   ('tirador-elastizado-de-carpincho', '089', 'cintos-y-rastras', 'Tirador elastizado de carpincho', 45000, 'Opción'),
   ('tirador-elastizado-de-cuero', '090', 'cintos-y-rastras', 'Tirador elastizado de cuero', 43000, 'Opción'),
